@@ -24,9 +24,9 @@ int main() {
     int n;
 
     // Example usage
-    cin >> n;
     cout << "Enter an integer: ";
-    
+    cin >> n;
+ 
     int result = solution.subtractProductAndSum(n);
     
     cout << "Result: " << result << endl;
